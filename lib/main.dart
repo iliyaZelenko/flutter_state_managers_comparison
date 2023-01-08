@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:todos_state_managers_comparison/presentation/cubit/widgets/body_cubit.dart';
+import 'package:todos_state_managers_comparison/presentation/mobx/widgets/body_mob_x.dart';
 
 void main() {
+  // Track MobX events
+  // mainContext
+  //   ..config = mainContext.config.clone(
+  //     isSpyEnabled: true,
+  //   )
+  //   ..spy(print);
+
   runApp(const MyApp());
 }
 
@@ -18,8 +25,7 @@ class MyApp extends StatelessWidget {
       home: const Scaffold(
         body: Padding(
           padding: EdgeInsets.only(top: 60),
-          // TODO Profile
-          child: BodyCubit(), // BodyMobX(),
+          child: BodyMobX(), // BodyBloc, BodyCubit
         ),
       ),
     );
