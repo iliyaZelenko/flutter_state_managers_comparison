@@ -1,5 +1,8 @@
 # MobX vs Cubit vs BloC
 
+<img width="327" alt="Снимок экрана 2023-01-08 в 19 44 08" src="https://user-images.githubusercontent.com/13103045/211211022-eca4a26c-3b60-4002-bdeb-12b03eb80389.png">
+
+
 ## MobX
 
 Плюсы ➕:
